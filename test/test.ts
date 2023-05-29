@@ -1,3 +1,3 @@
-import { hello } from "../dist/lib";
+import { hello } from "../lib";
 
 hello();

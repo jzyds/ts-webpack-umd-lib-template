@@ -2,11 +2,11 @@
   "name": "ts-webpack-umd-lib-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/lib.js",
-  "types": "dist/lib.d.ts",
-  "typings": "dist/lib.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
   "directories": {
-    "dist": "dist"
+    "lib": "lib"
   },
   "scripts": {
     "build:webpack": "webpack --config webpack.config.js",

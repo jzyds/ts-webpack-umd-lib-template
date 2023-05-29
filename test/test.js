@@ -1,3 +1,3 @@
-const lib = require("../dist/lib");
+const lib = require("../lib");
 
 lib.hello();

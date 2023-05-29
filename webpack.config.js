@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    lib: "./src/lib.ts",
+    index: "./src/index.ts",
   },
   module: {
     rules: [
@@ -14,7 +14,7 @@ module.exports = {
   },
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "lib"),
     library: "[name]",
     libraryTarget: "umd",
     globalObject: "this",

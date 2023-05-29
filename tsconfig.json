@@ -16,13 +16,12 @@
 		"noImplicitReturns": true,
 		"noImplicitAny": false,
 		"noFallthroughCasesInSwitch": true,
-		"outDir": "dist",
+		"outDir": "lib",
 		"importHelpers": true
 	},
 	"exclude": [
 		"node_modules",
 		"lib",
-		"dist",
 		"test"
 	]
 }

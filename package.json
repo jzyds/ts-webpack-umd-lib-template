@@ -1,0 +1,23 @@
+{
+  "name": "ts-webpack-umd-lib-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "typings": "dist/lib.d.ts",
+  "directories": {
+    "dist": "dist"
+  },
+  "scripts": {
+    "build:webpack": "webpack --config webpack.config.js",
+    "test": "node ./test/test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
